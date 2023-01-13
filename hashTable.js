@@ -1,6 +1,7 @@
 class HashTable {
   constructor() {
-    this.table = new Array(257); // need to take prime number for Array length for hash function
+    // Array length need to be prime number for _hash function
+    this.table = new Array(257);
     this.size = 0;
   }
 
